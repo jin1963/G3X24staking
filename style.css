@@ -1,0 +1,67 @@
+body {
+    background-color: #0f0f23;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-size: 1.6em;
+    color: #ffdd57;
+}
+
+button {
+    margin: 8px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #ffdd57;
+    color: #000;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffd633;
+}
+
+input, select {
+    padding: 10px;
+    margin: 8px;
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.staking-section, .reward-section {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #292945;
+    border-radius: 8px;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}
